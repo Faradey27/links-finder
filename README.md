@@ -1,6 +1,29 @@
 # links-finder
 > Small lib to find all links in a string and get their positions or wrap them with something(like html `<a>` tag)
 
+### Install library
+```
+  npm install --save links-finder
+```
+or
+```
+  yarn add links-finder
+```
+or
+
+[Download](https://raw.githubusercontent.com/Faradey27/links-finder/master/dist/links-finder.min.js) our minified version
+
+or
+
+[Download](https://raw.githubusercontent.com/Faradey27/links-finder/master/dist/links-finder.min.js.gz) our gziped version
+
+-------
+
+### Live demo
+Take a look [here](http://faradey27.github.io/links-finder/)
+
+-------
+
 ### Examples of finding links
 
 ##### Default usage
@@ -67,3 +90,13 @@
 ```
 
 ##### For more example, you can take a looks to our [test spec file](/__test__/links-finder.spec.js)
+
+-------
+
+##### This lib is super fast and super tiny(< 1kb)
+
+##### We support all modern browsers starting from IE9
+
+-------
+
+Feel free to open [ISSUES](https://github.com/Faradey27/links-finder/issues) and [create pull requests](https://github.com/Faradey27/links-finder/pulls)
