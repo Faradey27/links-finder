@@ -1,0 +1,39 @@
+{
+  "name": "links-finder",
+  "version": "1.0.0",
+  "description": "Small lib to find all links in a string and wrap them with <a> tag or just to get positions of these links",
+  "main": "dist/links-finder.min.js",
+  "scripts": {
+    "build": "npm run babel && npm run minify && npm run gzip",
+    "babel": "NODE_ENV=production babel index.js --out-file dist/links-finder.js",
+    "minify": "uglifyjs dist/links-finder.js -o dist/links-finder.min.js -c -m",
+    "gzip": "gzip -c dist/links-finder.min.js > dist/links-finder.min.js.gz",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faradey27/links-finder.git"
+  },
+  "keywords": [
+    "linkify",
+    "detect",
+    "links",
+    "find",
+    "href",
+    "url",
+    "text"
+  ],
+  "author": "Andrii Tiertyshnyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Faradey27/links-finder/issues"
+  },
+  "homepage": "https://github.com/Faradey27/links-finder#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0",
+    "uglify-js": "^3.4.0"
+  }
+}
