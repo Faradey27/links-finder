@@ -15,7 +15,7 @@ or
 
 or
 
-[Download](https://raw.githubusercontent.com/Faradey27/links-finder/master/dist/links-finder.min.js.gz) our gziped version
+[Download](https://github.com/Faradey27/links-finder/blob/master/dist/links-finder.min.js.gz?raw=true) our gziped version
 
 -------
 
