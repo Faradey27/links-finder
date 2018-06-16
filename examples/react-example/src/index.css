@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  color: rgb(40, 44, 52);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
+
+.textarea {
+  width: 400px;
+  height: 150px;
+  font-size: 14px;
+  padding: 10px;
+  border-color: #ccc;
+}
+
+.result {
+  width: 400px;
+  height: 150px;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  word-break: break-all;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links-data {
+  font-size: 12px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.links {
+  width: 100%;
+}
