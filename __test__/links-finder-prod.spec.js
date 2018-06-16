@@ -1,4 +1,4 @@
-import linksFinder from './../index';
+import linksFinder from './../dist/links-finder.min';
 
 describe('links-finder', () => {
   it('should return empty array for empty string', () => {

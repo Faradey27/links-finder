@@ -93,7 +93,7 @@ Take a look [here](http://faradey27.github.io/links-finder/)
 
 -------
 
-##### This lib is super fast and super tiny(< 1kb)
+##### This lib is super fast and super tiny(< 6kb)
 
 ##### We support all modern browsers starting from IE9
 
