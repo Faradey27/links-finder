@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import linksFinder from './links-finder';
+import linksFinder from 'links-finder';
 
 const handleMatch = (link) => `<a href="${link}">${link}</a>`;
 const transformValue = (value) => linksFinder.wrapLinks(value, { onMatch: handleMatch })
